@@ -1,0 +1,47 @@
+
+/* google fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Bebas Neue', cursive;
+}
+p,div,a{
+  font-family: 'Poppins', sans-serif;
+}
+[alt="Site Logo"]{
+  height: 30px;
+}
+.header{
+  background: #FFF9F4;
+}
+.hero{
+  background: #FFF9F4;
+}
+.shopping-cart-icon{
+  width: 18px;
+  height: 18px;
+}
+[alt="Casual Shoes"]{
+  height: 250px;
+  display: block;
+  transition: filter 400ms;
+}
+[alt="Casual Shoes"]:hover{
+  animation: shoeLignt 1.5s infinite linear;
+}
+@keyframes shoeLignt {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+  
+}
+
+[alt="featured icons"]{
+  width: 50px;
+  margin-right: 20px;
+}
